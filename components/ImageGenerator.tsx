@@ -43,7 +43,7 @@ const ImageGenerator: React.FC<ImageGeneratorProps> = ({ language }) => {
                             value={prompt}
                             onChange={(e) => setPrompt(e.target.value)}
                             placeholder={`e.g., "un gato grande con un sombrero rojo"`}
-                            className="w-full p-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            className="w-full p-3 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 bg-white text-slate-800"
                             rows={3}
                             disabled={isLoading}
                         />

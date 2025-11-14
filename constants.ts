@@ -1,11 +1,14 @@
-
 export const LANGUAGES = [
-    { name: 'Spanish', flag: '🇪🇸', code: 'ES' },
-    { name: 'French', flag: '🇫🇷', code: 'FR' },
-    { name: 'German', flag: '🇩🇪', code: 'DE' },
-    { name: 'Italian', flag: '🇮🇹', code: 'IT' },
-    { name: 'Japanese', flag: '🇯🇵', code: 'JP' },
-    { name: 'Korean', flag: '🇰🇷', code: 'KR' },
-    { name: 'Portuguese', flag: '🇵🇹', code: 'PT' },
-    { name: 'Mandarin', flag: '🇨🇳', code: 'CN' },
+    { name: 'Spanish', flag: '🇪🇸' },
+    { name: 'French', flag: '🇫🇷' },
+    { name: 'German', flag: '🇩🇪' },
+    { name: 'Italian', flag: '🇮🇹' },
+    { name: 'Japanese', flag: '🇯🇵' },
+    { name: 'Korean', flag: '🇰🇷' },
+    { name: 'Portuguese', flag: '🇵🇹' },
+    { name: 'Mandarin', flag: '🇨🇳' },
+    { name: 'English', flag: '🇬🇧' },
+    { name: 'Hindi', flag: '🇮🇳' },
+    { name: 'Russian', flag: '🇷🇺' },
+    { name: 'Polish', flag: '🇵🇱' },
 ];

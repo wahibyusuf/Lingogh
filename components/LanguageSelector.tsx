@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { LANGUAGES } from '../constants';
 import { motion } from 'framer-motion';
@@ -30,7 +31,7 @@ const LanguageSelector: React.FC<LanguageSelectorProps> = ({ onSelectLanguage })
                 transition={{ type: 'spring', damping: 10, stiffness: 100 }}
                 className="mb-10"
             >
-                <h1 className="text-6xl font-extrabold text-white tracking-tight">Lingogh</h1>
+                <h1 className="text-6xl font-extrabold text-white tracking-tight">Lingo<span className="text-[#5D4037]">gh</span></h1>
             </motion.div>
             
             <h2 className="text-2xl font-bold text-white mb-2">Master a new language with your AI instructor</h2>
